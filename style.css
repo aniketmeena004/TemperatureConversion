@@ -1,0 +1,64 @@
+@font-face {
+    font-family: aniketSpecial;
+    src: url(Weather\ Sunday\ -\ Personal\ Use.otf);
+}
+
+body{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1504253163759-c23fccaebb55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    text-align: center;
+
+}
+
+
+form{
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.355);
+    margin: auto;
+    margin-top: 13%;
+    border: 3px solid lightblue;
+    box-shadow: 3px 3px 15px white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form > h1{
+    font-family: aniketSpecial;
+}
+form > input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    filter: opacity(0.8);
+}
+
+form > button{
+    padding: 15px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: transparent;
+    border-radius: 10px;
+    filter: opacity(0.8);
+    transition: all ease-in 0.1s;
+}
+form>button:hover{
+    transform: scale(1.05);
+}
+#reply{
+    width: 100%;
+}
+@media (max-width:1117px) {
+    body{
+        background-size: auto;
+    }
+    form{
+    width: 300px;
+    }
+}
